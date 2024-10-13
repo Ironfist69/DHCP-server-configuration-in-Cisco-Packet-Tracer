@@ -27,8 +27,8 @@ The primary objective of this project was to configure a DHCP server in Cisco Pa
 
 ## Configuring Routers & DHCP Relay
 ### Router0 interfaces
-F0/0 - 192.168.0.1
-F1/0 - 192.168.1.1
+- F0/0 - 192.168.0.1
+- F1/0 - 192.168.1.1
 
 ### Router0 DHCP Relay setup
 ```
