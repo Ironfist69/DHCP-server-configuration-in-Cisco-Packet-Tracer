@@ -8,8 +8,6 @@ The primary objective of this project was to configure a DHCP server in Cisco Pa
 - 1 Router
 - 15 PCs
 
-![Screenshot 2024-10-13 164945](https://github.com/user-attachments/assets/36ebc9b5-ed09-46fe-9dcd-ea0bc1c8b6fd)
-
 ## Arranging Network Topology
 
 ![Screenshot 2024-10-13 165754](https://github.com/user-attachments/assets/b52a2ae6-49f7-4aa0-89f3-511b1e06d921)
