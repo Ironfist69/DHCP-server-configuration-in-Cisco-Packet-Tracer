@@ -15,7 +15,8 @@ The primary objective of this project was to configure a DHCP server in Cisco Pa
 ## Setting IP Addresses
 
 ### DHCP Server IP (192.168.0.69)
-![Screenshot 2024-10-13 170029](https://github.com/user-attachments/assets/3520d8e2-9ca0-4793-8ad9-66d162e7daac)
+
+![Screenshot 2024-10-15 164434](https://github.com/user-attachments/assets/062941dc-ce5d-4d20-a7e2-c7a1458530ec)
 
 ### Enabling DHCP Service & creating pools
 ![Screenshot 2024-10-13 200034](https://github.com/user-attachments/assets/6d6aa1d9-0330-4d36-b1a2-db2f6ddb919d)
