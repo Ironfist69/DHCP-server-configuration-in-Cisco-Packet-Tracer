@@ -31,19 +31,27 @@ The primary objective of this project was to configure a DHCP server in Cisco Pa
 
 ## Configuring Routers & DHCP Relay
 ### Router Configuration
+
 #### IP Addresses for each Interface
 - G0/0 : 192.168.0.1 (Facing Server side)
 - G1/0 : 192.168.1.1
 - G2/0 : 192.168.2.1
 - G3/0 : 192.168.3.1
 > DNS Server Address: 192.168.0.2
-### Router0 DHCP Relay setup
+
+### DHCP Relay setup for each Interface
 ```
 Router# conf t
-Router(config)# int f0/0
+Router(config)# int g0/0
 Router(config-if)# ip helper-address 192.168.0.69
 Router(config-if)# exit
-Router(config)# int f1/0
+Router(config)# int g1/0
+Router(config-if)# ip helper-address 192.168.0.69
+Router(config-if)# exit
+Router(config)# int g2/0
+Router(config-if)# ip helper-address 192.168.0.69
+Router(config-if)# exit
+Router(config)# int g3/0
 Router(config-if)# ip helper-address 192.168.0.69
 Router(config-if)# exit
 Router(config)# exit
