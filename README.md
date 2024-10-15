@@ -29,7 +29,7 @@ The primary objective of this project was to configure a DHCP server in Cisco Pa
 ### DNS Server (192.168.0.2)
 ![Screenshot 2024-10-15 164742](https://github.com/user-attachments/assets/f371d9c5-d8e2-4e9b-896a-6547d8d57dc4)
 
-## Configuring Routers & DHCP Relay
+## Configuring Router & DHCP Relay
 ### Router Configuration
 
 #### IP Addresses for each Interface
@@ -57,3 +57,11 @@ Router(config-if)# exit
 Router(config)# exit
 wr
 ```
+## Setting IP addresses to DHCP for each client
+![Screenshot 2024-10-15 165443](https://github.com/user-attachments/assets/4e426bf9-7dfd-4fa9-a60d-1a48b60cc54b)
+
+## Overall Topology
+![Screenshot 2024-10-15 165728](https://github.com/user-attachments/assets/0d776bab-f279-4dbe-bdec-e4a16321ed5b)
+
+## Conclusion
+With the setup of a DHCP and DNS server, IP address management and domain name resolution can be automated, streamlining network operations for dynamic and scalable environments.
