@@ -1,10 +1,11 @@
-# DHCP configuration using Cisco Packet Tracer
+# DHCP and DNS Server configuration using Cisco Packet Tracer
 ## Objective
 The primary objective of this project was to configure a DHCP server in Cisco Packet Tracer, allowing network clients to automatically receive IP addresses and necessary network configurations.
 ## Devices used
 - 1 DHCP Server
-- 3 Switches
-- 2 Routers
+- 1 DNS Server
+- 4 Switches
+- 1 Router
 - 15 PCs
 
 ![Screenshot 2024-10-13 164945](https://github.com/user-attachments/assets/36ebc9b5-ed09-46fe-9dcd-ea0bc1c8b6fd)
