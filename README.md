@@ -14,16 +14,20 @@ The primary objective of this project was to configure a DHCP server in Cisco Pa
 
 ## Setting IP Addresses
 
-### DHCP Server IP (192.168.0.69)
+### DHCP Server (192.168.0.69)
 
 ![Screenshot 2024-10-15 164434](https://github.com/user-attachments/assets/062941dc-ce5d-4d20-a7e2-c7a1458530ec)
 
 ### Enabling DHCP Service & creating pools
-![Screenshot 2024-10-13 200034](https://github.com/user-attachments/assets/6d6aa1d9-0330-4d36-b1a2-db2f6ddb919d)
 
-- serverPool - from 192.168.0.0
-- serverPool1 - from 192.168.1.0
-- serverPool2 - from 192.168.2.0
+![Screenshot 2024-10-15 164615](https://github.com/user-attachments/assets/03c67843-54ac-4f30-b982-9c384c4458ee)
+
+- serverPool - from 192.168.1.0
+- Pool-1 - from 192.168.2.0
+- Pool-2 - from 192.168.3.0
+
+### DNS Server (192.168.0.2)
+![Screenshot 2024-10-15 164742](https://github.com/user-attachments/assets/f371d9c5-d8e2-4e9b-896a-6547d8d57dc4)
 
 ## Configuring Routers & DHCP Relay
 ### Router0 interfaces
