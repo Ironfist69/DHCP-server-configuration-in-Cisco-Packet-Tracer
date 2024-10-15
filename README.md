@@ -10,7 +10,7 @@ The primary objective of this project was to configure a DHCP server in Cisco Pa
 
 ## Arranging Network Topology
 
-![Screenshot 2024-10-13 165754](https://github.com/user-attachments/assets/b52a2ae6-49f7-4aa0-89f3-511b1e06d921)
+![Screenshot 2024-10-15 164328](https://github.com/user-attachments/assets/deeb4dce-0590-476d-aab7-db71bdb243bf)
 
 ## Setting IP Addresses
 
